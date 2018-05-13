@@ -39,6 +39,31 @@ h2 {
   font-size: 1.35rem;
 }
 
+.list-social-icons a {
+  color: #495057;
+}
+
+.list-social-icons a:hover {
+  color: #006363;
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
+
+.list-icons {
+  font-size: 3rem;
+}
+
+.list-icons .list-inline-item i:hover {
+  color: #006363;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 
 @media (min-width: 992px) {
   #sideNav {
@@ -80,15 +105,14 @@ h2 {
   }
 }
 
-
-section.resume-section .resume-item .resume-date {
-  min-width: none;
-}
-
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
 }
 
 @media (min-width: 768px) {
